@@ -30,6 +30,7 @@ This project used the News Category Dataset from Rishabh Misra which had origina
 
 `Short_description`: `Short description of the article`.
 
+`NOTE`: `Both headline and short description were concatenated prior to the modeling process`.
 
 ---
 
