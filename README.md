@@ -90,7 +90,7 @@ EXPLAINATION
 
 ## Conclusions
 
-* The model was able to predict the category of each article description with 62 percent accuracy with a slight overfit on the training data - 66 percent accuracy. 
+* The model was able to predict the category of each article description with 62 percent accuracy with a slight overfit on the training data - 66 percent F-1 score. 
 
 * While the model accuracy was not substantially high, it would prove to be a meaningful model in predicting news article categories for Huffington Post.
 
@@ -99,9 +99,9 @@ EXPLAINATION
 
 ## Next Steps 
 
-* To add a new feature that would account for the percentage of the different parts of speech in each discription to improve model accuracy.
+* To add a new feature that would account for the percentage of the different parts of speech in each description to improve model accuracy.
 
-* To reduce model bias and overfitting by using a Gridsearch CV to establish the best use hyperperameters.
+* To reduce model bias and overfitting by using a Grid Search CV to establish the best use hyperparameters.
 
 * To host the final logistic regression model on a website domain. 
 
