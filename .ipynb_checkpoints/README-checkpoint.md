@@ -1,6 +1,6 @@
 ![News Cover](images/cover_photo.jpg)
 
-# NLP News Article Categorization
+# Natural Language Processing: News Article Categorization
 
 ---
 **Authors**: Chandler O'Neal, Jordan Johnson, Kyle Vosen
@@ -8,19 +8,19 @@
 
 ## Overview
 
-The focus of this project was to create a machine learning model that could receive descriptions of unknown news articles from huffington post and categorize them. The original data observed contained 5 features, the target variable (the category of the article), and 200,853 records (News Articles); these were then reduced to one feature, the concatenated headline and description, the target variable, and 200,853 records. 
+The focus of this project was to create a machine learning model that could receive descriptions of unknown news articles from huffington post and categorize them. The original data contained 5 features, the target variable (the category of the article), and 200,853 records (News Articles); these were then reduced to one feature, the concatenated headline and the description, the target variable, and 200,853 records. This model could be used to organize articles that have not yet been categorized in a more resourceful manner. 
 
 ---
 
 ## Business Problem
 
-Forbes Magazine 
+Huffington Post had found it necessary to add a model to their toolbelt that would help them to organize yet to be categorized articles. F-1 score was the metric used for this project as it was not necessary to weigh false negatives (incorrectly predicting the returned categorization to be inaccurate) or false positives (incorrectly predicting the returned categorization to be accurate) more heavily. 
 
 ---
 
 ## Data 
 
-This project used the News Category Dataset from Rishabh Misra which had originally been web scraped from The Huffington Post. The data, post cleaning, contained 2 features with 200,853 records. 
+This project used the News Category Dataset from Rishabh Misra which had originally been web scraped from The Huffington Post. The data, post cleaning, contained 1 feature, the combination of the headline and description features, with 200,853 records. 
 
 ---
 
@@ -31,47 +31,53 @@ This project used the News Category Dataset from Rishabh Misra which had origina
 
 * `Short_description`: `Short description of the article`.
 
-* `NOTE`: `Both headline and short description were concatenated prior to the modeling process`.
+* `NOTE`: `Both headline and short description were concatenated (combined) prior to the modeling process`.
 
 ---
 
 ### Predictor Value
 
-* `Category`: `The arrticles classification`.
+* `Category`: `Each article's classification`.
 
 ---
 
-## Methods
+## Methods Used 
+
+**Data Preparation**
+ 
+* `Removing Stop Words`: Words unnecissary towards predicting the category (ex: the, in, a, on). 
+`(ex before: [the dog ran to the parking lots to])` `(ex after: [dog ran parking lots]) `
 
 
+* `Tokenizing Words`: Sepparating all headline and desciptions into individual words to then combine them as a list of words.
+
+`(ex before: [dog ran parking lots])` `(ex after: [dog, ran, parking, lots]) `
+
+* `Lemmatizing Words`: Removing affixes from words (reducing words to their root by removing any letters attached to them).
+`(ex before: [dog, ran, parking, lots])` `(ex after: [dog, ran, park, lot]) ` 
+ 
+ 
 ---
 
 ## Results 
 
 EXPLAINATION 
 
-![image1](images/)
+![image1](images/categories2.jpg)
 
 
 ---
 
 EXPLAINATION 
 
-![image2](images/)
+![image2](images/data_with_stopwords.png)
 
 
 ---
 
 EXPLAINATION 
 
-![image3](images/)
-
-
----
-
-EXPLAINATION 
-
-![image4](images/)
+![image3](images/data_without_stopwords.png)
 
 
 ---
