@@ -27,17 +27,17 @@ This project used the News Category Dataset from Rishabh Misra which had origina
 
 ### Content
 
-* `Headline`: `Title of the article`.
+* `Headline`: Title of the article.
 
-* `Short_description`: `Short description of the article`.
+* `Short_description`: Short description of the article.
 
-* `NOTE`: `Both headline and short description were concatenated (combined) prior to the modeling process`.
+* `NOTE`: Both headline and short description were concatenated (combined) prior to the modeling process.
 
 ---
 
 ### Predictor Value
 
-* `Category`: `Each article's classification`.
+* `Category`: Each article's classification.
 
 ---
 
@@ -46,17 +46,18 @@ This project used the News Category Dataset from Rishabh Misra which had origina
 **Data Preparation**
  
 * `Removing Stop Words`: Words unnecissary towards predicting the category (ex: the, in, a, on). 
-`(ex before: [the dog ran to the parking lots to])` `(ex after: [dog ran parking lots]) `
 
 
 * `Tokenizing Words`: Sepparating all headline and desciptions into individual words to then combine them as a list of words.
 
-`(ex before: [dog ran parking lots])` `(ex after: [dog, ran, parking, lots]) `
-
 * `Lemmatizing Words`: Removing affixes from words (reducing words to their root by removing any letters attached to them).
-`(ex before: [dog, ran, parking, lots])` `(ex after: [dog, ran, park, lot]) ` 
- 
- 
+
+* `Vectorization:` 
+
+* `Modeling:` 
+
+* `Pickeling:`
+
 ---
 
 ## Results 
@@ -121,8 +122,8 @@ For any additional questions, please contact **Chandler O'Neal & jchandleroneal@
 ---
 
 ## Acknowledgements
-[Kaggle](https://www.kaggle.com/rmisra/news-category-dataset)
+[Kaggle](https://www.kaggle.com/rmisra/news-category-dataset) The kaggle source that the data has been taken from.
 
-[Kaggle Creator](https://www.kaggle.com/rmisra/news-category-dataset#:~:text=rishabhmisra.github.io/publications)
+[Kaggle Creator](https://www.kaggle.com/rmisra/news-category-dataset#:~:text=rishabhmisra.github.io/publications) The creator of the data source on kaggle.
 
-[Huffington Post](https://www.huffpost.com/)
+[Huffington Post](https://www.huffpost.com/) The original source of the data.
