@@ -10,11 +10,13 @@
 
 The focus of this project was to create a machine learning model that could receive descriptions of unknown news articles from huffington post and categorize them. The original data contained 5 features, the target variable (the category of the article), and 200,853 records (News Articles); these were then reduced to one feature, the concatenated headline and the description, the target variable, and 200,853 records. This model could be used to organize articles that have not yet been categorized in a more resourceful manner. 
 
+
 ---
 
 ## Business Problem
 
 Huffington Post had found it necessary to add a model to their toolbelt that would help them to organize yet to be categorized articles. F-1 score was the metric used for this project as it was not necessary to weigh false negatives (incorrectly predicting the returned categorization to be inaccurate) or false positives (incorrectly predicting the returned categorization to be accurate) more heavily. 
+
 
 ---
 
@@ -22,8 +24,8 @@ Huffington Post had found it necessary to add a model to their toolbelt that wou
 
 This project used the News Category Dataset from Rishabh Misra which had originally been web scraped from The Huffington Post. The data, post cleaning, contained 1 feature, the combination of the headline and description features, with 200,853 records. 
 
----
 
+---
 
 ### Content
 
@@ -33,11 +35,13 @@ This project used the News Category Dataset from Rishabh Misra which had origina
 
 * `NOTE`: Both headline and short description were concatenated (combined) prior to the modeling process.
 
+
 ---
 
 ### Predictor Value
 
 * `Category`: Each article's classification.
+
 
 ---
 
@@ -52,11 +56,12 @@ This project used the News Category Dataset from Rishabh Misra which had origina
 
 * `Lemmatizing Words`: Removing affixes from words (reducing words to their root by removing any letters attached to them).
 
-* `Vectorization:` 
+* `Vectorization:` ------------
 
-* `Modeling:` 
+* `Modeling:` ------------------
 
-* `Pickeling:`
+* `Pickeling:` ----------------
+
 
 ---
 
@@ -85,14 +90,20 @@ EXPLAINATION
 
 ## Conclusions
 
-CONCLUSIONS
+* The model was able to predict the category of each article description with 62 percent accuracy with a slight overfit on the training data - 66 percent accuracy. 
+
+* While the model accuracy was not substantially high, it would prove to be a meaningful model in predicting news article categories for Huffington Post.
 
 
 ---
 
 ## Next Steps 
 
-NEXT STEPS 
+* To add a new feature that would account for the percentage of the different parts of speech in each discription to improve model accuracy.
+
+* To reduce model bias and overfitting by using a Gridsearch CV to establish the best use hyperperameters.
+
+* To host the final logistic regression model on a website domain. 
 
 
 --- 
@@ -115,8 +126,7 @@ For any additional questions, please contact **Chandler O'Neal & jchandleroneal@
 ├──src                                 <- The table links used 
 ├──.gitignore       
 ├──README.md                           <- The README for project summary
-├──final_project.ipynb                <- Narrative documentation of analysis in Jupyter notebook
-└── presentation_Analysis.pdf           <- PDF version of project presentation
+├──final_project.ipynb                <- Narrative documentation of analysis in Jupyter ├──notebook                          <- The Location of the processing notebooks           └── presentation_Analysis.pdf           <- PDF version of project presentation
 ```
 
 ---
