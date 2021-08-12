@@ -8,35 +8,36 @@
 
 ## Overview
 
-The focus of this project was to observe a given description from an unknown news article to the created model that would then determine the category of the article.  
+The focus of this project was to create a machine learning model that could receive descriptions of unknown news articles from huffington post and categorize them. The original data observed contained 5 features, the target variable (the category of the article), and 200,853 records (News Articles); these were then reduced to one feature, the concatenated headline and description, the target variable, and 200,853 records. 
 
 ---
 
 ## Business Problem
 
+Forbes Magazine 
 
 ---
 
 ## Data 
 
-This project used the News Category Dataset from Rishabh Misra which had originally been web scraped from The Huffington Post. The data, post cleaning, contained 2 features with 200,853 records (news articles). 
+This project used the News Category Dataset from Rishabh Misra which had originally been web scraped from The Huffington Post. The data, post cleaning, contained 2 features with 200,853 records. 
 
 ---
 
 
 ### Content
 
-`Headline`: `Title of the article`.
+* `Headline`: `Title of the article`.
 
-`Short_description`: `Short description of the article`.
+* `Short_description`: `Short description of the article`.
 
-`NOTE`: `Both headline and short description were concatenated prior to the modeling process`.
+* `NOTE`: `Both headline and short description were concatenated prior to the modeling process`.
 
 ---
 
 ### Predictor Value
 
-`Category`: `The arrticles classification`.
+* `Category`: `The arrticles classification`.
 
 ---
 
@@ -118,4 +119,4 @@ For any additional questions, please contact **Chandler O'Neal & jchandleroneal@
 
 [Kaggle Creator](https://www.kaggle.com/rmisra/news-category-dataset#:~:text=rishabhmisra.github.io/publications)
 
-[Huffington Post](https://www.kaggle.com/rmisra/news-category-dataset#:~:text=was%20collected%20from-,HuffPost,-.)
+[Huffington Post](https://www.huffpost.com/)
