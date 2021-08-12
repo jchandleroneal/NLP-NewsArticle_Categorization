@@ -56,11 +56,11 @@ This project used the News Category Dataset from Rishabh Misra which had origina
 
 * `Lemmatizing Words`: Removing affixes from words (reducing words to their root by removing any letters attached to them).
 
-* `Vectorization:` ------------
+* `Vectorization:` Transformed lemmatized words into numerical values in order to predict the articles.
 
-* `Modeling:` ------------------
+* `Modeling:` Used a Logistic Regression to determine the model predictions for an F1 score.
 
-* `Pickeling:` ----------------
+* `Pickeling:` Used pickeling to save our model to use for deployment. 
 
 
 ---
@@ -112,7 +112,7 @@ EXPLAINATION
 
 Please review our full analysis in [our Jupyter Notebook](./name.ipynb) or our [presentation](./name.pdf).
 
-For any additional questions, please contact **Chandler O'Neal & jchandleroneal@gmail.com, Jordan Johnson & jrjohnso@bsc.edu, Kyle Vosen & kylevosen1999@gmail.com**
+For any additional questions, please contact **Chandler O'Neal & jchandleroneal@gmail.com, Jordan Johnson & johnsonjordan556677@gmail.com, Kyle Vosen & kylevosen1999@gmail.com**
 
 
 ---
