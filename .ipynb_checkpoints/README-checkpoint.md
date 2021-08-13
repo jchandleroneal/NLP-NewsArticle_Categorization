@@ -56,32 +56,32 @@ This project used the News Category Dataset from Rishabh Misra which had origina
 
 * `Lemmatizing Words`: Removing affixes from words (reducing words to their root by removing any letters attached to them).
 
-* `Vectorization:` ------------
+* `Vectorization:` Transformed lemmatized words into numerical values in order to predict the articles.
 
-* `Modeling:` ------------------
+* `Modeling:` Used a Logistic Regression to determine the model predictions for an F1 score.
 
-* `Pickeling:` ----------------
+* `Pickeling:` Used pickeling to save our model to use for deployment.
 
 
 ---
 
 ## Results 
 
-EXPLAINATION 
+A visual to display the imbalances within each category, meaning each some categories have far more news articles than others. 
 
 ![image1](images/categories2.jpg)
 
 
 ---
 
-EXPLAINATION 
+The stop words, as seen below, are highly common throughout the headlines and descriptions, however; they prove to be unhelpful when training the model to recognize commanalities between the categories, headlines, and descriptions.
 
 ![image2](images/data_with_stopwords.png)
 
 
 ---
 
-EXPLAINATION 
+The words below, have proved helpful in training the model to recognize patters between the categories as they are far more unique than the stop words above. 
 
 ![image3](images/data_without_stopwords.png)
 
