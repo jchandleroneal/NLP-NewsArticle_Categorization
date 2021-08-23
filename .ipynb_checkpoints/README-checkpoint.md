@@ -110,7 +110,7 @@ The words below have proven to be helpful towards training the model to recogniz
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](../../notebook_NLP.pdf) or our [presentation](./project_4_presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](../notebook_NLP.pdf) or our [presentation](./project_4_presentation.pdf).
 
 For any additional questions, please contact **Chandler O'Neal & jchandleroneal@gmail.com, Jordan Johnson & jrjohnso@bsc.edu, Kyle Vosen & kylevosen1999@gmail.com**
 
