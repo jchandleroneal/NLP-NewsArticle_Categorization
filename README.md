@@ -67,21 +67,21 @@ This project used the News Category Dataset from Rishabh Misra which had origina
 
 ## Results 
 
-A visual to display the imbalances within each category, meaning each some categories have far more news articles than others. 
+A visual to display the imbalances within each category, meaning some categories have far more news articles than others (ex: Lifestyle and Wellness holds 20.2% of articles whereas Environment holds 2.0%). 
 
 ![image1](images/categories2.jpg)
 
 
 ---
 
-The stop words, as seen below, are highly common throughout the headlines and descriptions, however; they prove to be unhelpful when training the model to recognize commanalities between the categories, headlines, and descriptions.
+The stop words, as seen below, are highly common throughout the headlines and descriptions, however; they prove to be unhelpful when training the model to recognize commonalities between the categories, headlines, and descriptions.
 
 ![image2](images/data_with_stopwords.png)
 
 
 ---
 
-The words below, have proved helpful in training the model to recognize patters between the categories as they are far more unique than the stop words above. 
+The words below have proven to be helpful towards training the model to recognize certain patters between the categories - reason being that they are far more unique than the stop words above. 
 
 ![image3](images/data_without_stopwords.png)
 
@@ -110,7 +110,7 @@ The words below, have proved helpful in training the model to recognize patters 
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./name.ipynb) or our [presentation](./name.pdf).
+Please review our full analysis in [our Jupyter Notebook](./../notebook_NLP.pdf) or our [presentation](./project_4_presentation.pdf).
 
 For any additional questions, please contact **Chandler O'Neal & jchandleroneal@gmail.com, Jordan Johnson & jrjohnso@bsc.edu, Kyle Vosen & kylevosen1999@gmail.com**
 
