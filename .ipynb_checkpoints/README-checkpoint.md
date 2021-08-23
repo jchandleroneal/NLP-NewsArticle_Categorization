@@ -110,7 +110,7 @@ The words below have proven to be helpful towards training the model to recogniz
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./notebooks/notebook_nlp.pdf) or our [presentation](./project_4_presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](notebooks/notebook_nlp.pdf) or our [presentation](./project_4_presentation.pdf).
 
 For any additional questions, please contact **Chandler O'Neal & jchandleroneal@gmail.com, Jordan Johnson & jrjohnso@bsc.edu, Kyle Vosen & kylevosen1999@gmail.com**
 
@@ -121,14 +121,20 @@ For any additional questions, please contact **Chandler O'Neal & jchandleroneal@
 
 
 ```
-├──data/zippedData                     <- The tables used for this project 
+├──data                                <- The tables used for this project 
 ├──images                              <- The images used 
 ├──src                                 <- The table links used 
-├──.gitignore       
 ├──README.md                           <- The README for project summary
-├──final_project.ipynb                <- Narrative documentation of analysis in Jupyter 
-├──notebook                          <- The Location of the processing notebooks           
-└── presentation_Analysis.pdf           <- PDF version of project presentation
+├── notebooks 
+│   ├──exploratory
+│   └── final_notebook.ipynb           <- The Location of the processing notebooks           
+├── project_4_presentation.pdf         <- PDF version of project presentation
+│
+├── notebooks 
+│   ├──exploratory
+│   └──notebook_nlp.pdf.ipynb
+└── images                             <- All photos used for README.md
+    └──...
 ```
 
 ---
